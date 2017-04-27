@@ -9,31 +9,6 @@ session_start();
 <html>
 <head>
 	<title>LOGIN</title>
-	<style type="text/css">
-		.box1{
-			border-radius: 5px;
-			text-align: center;
-			max-width: 500px;
-			min-width: 200px;
-			width: 100%;
-			margin: auto;
-		}
-		.inputfield{
-			margin-top: 20px;
-			width: 100%;
-		}
-		.btn{
-			padding: 5px;
-			width: 100px;
-			border-radius: 5px;
-			background-color: #32cd32;
-			color: #fff;
-			border: none;
-		}
-		.btn:hover{
-			box-shadow: 0px 0px 10px #32cd32;
-		}
-	</style>
 </head>
 <body>
 	<div class="alignment">

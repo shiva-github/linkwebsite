@@ -12,6 +12,7 @@ if(!isset($_SESSION['logged_in'])){
 	<title>PROJECT LINKS</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/tether.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -75,14 +76,10 @@ if(!isset($_SESSION['logged_in'])){
 	</section>
 	<footer class="text-center">
 		<a href="uploadDoc.php">Upload Document</a>
+		<strong><a href="login.php">LOGOUT>>></a></strong>
 	</footer>
 	<style>
-		.padding10{
-			padding: 10px;
-		}
-		.width100{
-			width: 100%;
-		}
+		
 	</style>
 	<?php 
 	require_once('conf.php');
